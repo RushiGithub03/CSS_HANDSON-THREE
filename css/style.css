@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: grey;
+    width: 98%;
+    height: 1570px;
+}
+
+.common {
+    border: 10px solid red;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.469);
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.heading {
+
+    width: 380px;
+    height: 109px;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    left: 35%;
+    padding: 20px;
+    line-height: 38px;
+    margin-top: 5px;
+    color: #A93226;
+    text-shadow: 1px 1px 2px rgb(165, 77, 92);
+
+}
+.line {
+  color: white;
+  margin-top: 6px;
+  width: 101%;
+  margin-left: 5px;
+}
+
+.parent {
+    width: 100%;
+    height: 500px;
+    border: 10px solid red;
+    margin-left: 5px;
+    height: 570px;
+
+}
+
+.child {
+    position: relative;
+/* left: 30px; */
+/* top: px; */
+    width: 230px;
+    height: 200px;
+    /* background-color: white; */
+    /* color: rgba(0, 0, 0, 0.602); */
+    text-align: center;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.468); */
+    color: black;
+    /* text-align: center; */
+    text-shadow: 2px 2px 3px rgb(144, 19, 19);
+    line-height: 39px;
+    padding: 10px 0px 10px 0px;
+    display: inline-block; 
+    font-size: 16px;
+    
+}
+
+.child2 {
+    /* position: relative; */
+    left: 900px;
+    /* font-size: 16px; */
+}
+
+.bgimg {
+    /* padding-top: 35px; */
+    margin-top:  22px;
+    
+    border: 3px solid black;
+    border-top: none;
+   width: 200px;
+   height: 120px;
+  /* need to add the back ground image */
+}
+
+.bgimage2 {
+height:130px;
+/* height: 3; */
+width:200px;
+/* background-image: url('https://tse1.mm.bing.net/th?id=OIP.anp0XQz24UeOEE5qf-5swQHaEo&pid=Api&rs=1&c=1&qlt=95&w=161&h=100'); */
+/* background-repeat: no-repeat; */
+/* background-position: ; */
+/* background-size: cover; */
+}
+.child3 {
+    position: fixed;
+    /* position: sticky; */
+    left: 400px;
+    /* bottom: 100px; */
+    width: 480px;
+    padding: 10px;
+    background-color: yellow;
+    /* color: red; */
+
+    border: 10px solid red;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.469);
+    /* text-align: center; */
+    /* background-color: white; */
+    border-radius: 20px;
+    height: 65px;
+    /* text-align: center; */
+    font-style: italic;
+    /* font-weight: bold; */
+}
+
+.common2{
+    color: brown;
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   font-weight: bold;
+}
+.para1 {
+   /* color: brown;
+   position: relative; */
+   /* position: absolute; */
+   left: 30px;
+   top: 18px;
+   /* display: inline-block; */
+   font-size: 24px;
+   text-align: center;
+   
+}
+.para2{
+    /* position: relative;
+    display: inline-block; */
+    /* left: 10x; */
+    /* left: 100px; */
+    /* right: 100px; */
+    left: 80px;
+    top: 5px;
+    font-size: 20px;
+    /* text-align: center; */
+    color: brown;
+    /* font-weight: bold; */
+}
+
+.child4 {
+    position: relative;
+    /* left: 30px; */
+        top:64px;
+        width: 230px;
+        height: 200px;
+        /* background-color: white; */
+        color: black;
+    /* text-align: center; */
+    text-shadow: 2px 2px 3px rgb(144, 19, 19);
+        /* line-height: px; */
+        /* padding: 10px; */
+        display: inline-block;
+        padding: 10px 0px 10px 0px;
+        /* bottom: px; */
+
+        /*  */
+
+}
+
+.common3 {
+    border: 10px solid red;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.469);
+    /* text-align: center; */
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.child5 {
+    left: 900px;
+    text-align: center;
+}
+input::placeholder {
+    text-align: center;
+}
+input {
+    width: 80px;
+    font-weight: bold;
+    /* padding: 3px; */
+}
+
+.formlable {
+    font-size: 15px;
+    /* text-shadow: 2px 2px 2px yellow; */
+    /* color: pink; */
+
+}
+#rateus {
+    width: 120px;
+}
+.formsubmit {
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+#submitform {
+    padding: 2px;
+}
+
+.footer {
+    margin-top: 40px;
+    /* position: ; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+    
+    height: 700px;
+
+    /* position: relative; */
+    /* left: 400px; */
+    border: 10px solid purple;
+    background-color: green;
+    /* position: sticky; */
+
+
+}
+
+.footerpar {
+    align-items: center; 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    /* justify-content: space-; */
+}
+
+
+.containerfooter {
+    text-align: center;
+    background-color:  khaki;
+    border: 2px solid purple;
+    /* margin-right: 8px; */
+    height: 269px;
+    width: 420px;
+    padding: 8px;
+    
+
+}
+.headingfruits {
+    /* align-items:; */
+    /* text-align: center; */
+    font-style: italic;
+    font-size: 27px;
+    padding: 20px;
+    
+}
+
+.containerfooter2 {
+    margin-right: 0px;
+}
+.containerfooter p {
+    font-size: 17px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+.headingend {
+    text-align: center;
+    /* padding: 20px; */
+    padding-bottom: 12px;
+    background-color: green;
+    /* margin-bottom: 10px; */
+    height: 60px;
+    /* margin-top: 10px; */
+    padding-top: 30px;
+    font-size: 22px;
+    
+    
+}
+.footerlast {
+    text-align: center;
+    background-color: khaki;
+    font-style: italic;
+    width:840px ;
+    height: 300px;
+    margin-top: 10px;
+    /* position: relative; */
+    font-weight: bold;
+    border: 2px solid purple;
+}
+
+.footerlast p {
+    font-size: 17px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+.footerheading3 {
+    padding: 30px;
+}
+
+.para {
+    margin-top: 10px;
+}
+.para3 {
+    margin-top: 10px;
+}
